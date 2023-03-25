@@ -1,82 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Clickclick | Shorts and Reels Business Editing and Ads Agency</title>
-	<style>
-		/* Styles for body and headings */
-		body {
-			background-color: #f7f7f7;
-			color: #333;
-			font-family: Arial, sans-serif;
-			font-size: 16px;
-			line-height: 1.6;
-			margin: 0;
-			padding: 0;
-		}
-		h1, h2, h3, h4, h5, h6 {
-			color: #222;
-			font-weight: bold;
-			line-height: 1.2;
-			margin-top: 0;
-		}
-		h1 {
-			font-size: 36px;
-		}
-		h2 {
-			font-size: 28px;
-		}
-		h3 {
-			font-size: 22px;
-		}
+  <meta charset="UTF-8">
+  <title>Clickclick | Shorts and Reels Business Editing and Ads Agency</title>
+  <link rel="stylesheet" href="style.css">
 
-		/* Styles for links */
-		a {
-			color: #00C2CC;
-			text-decoration: none;
-		}
-		a:hover {
-			color: #EC2154;
-			text-decoration: underline;
-		}
+/* Global styles */
 
-		/* Styles for sections and containers */
-		section {
-			padding: 40px 0;
-		}
-		.container {
-			margin: 0 auto;
-			max-width: 960px;
-			padding: 0 20px;
-		}
+* {
+  margin: 0;
+  padding: 
 
-		/* Styles for buttons */
-		.btn {
-			background-color: #00C2CC;
-			border: none;
-			border-radius: 3px;
-			color: #fff;
-			cursor: pointer;
-			display: inline-block;
-			font-size: 18px;
-			font-weight: bold;
-			padding: 10px 20px;
-			text-align: center;
-			text-transform: uppercase;
-			transition: background-color 0.3s ease;
-		}
-		.btn:hover {
-			background-color: #EC2154;
-		}
-	</style>
 </head>
 <body>
-	<section>
-		<div class="container">
-			<h1>Clickclick</h1>
-			<h2>Shorts and Reels Business Editing and Ads Agency</h2>
-			<p>We specialize in providing high-quality video editing and advertising services to businesses in the healthcare industry, tech industry, and essential foods industry.</p>
-			<a href="#" class="btn">Contact Us</a>
-		</div>
-	</section>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">Clickclick</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Shorts and Reels Business Editing and Ads Agency</h1>
+      <button class="btn">Get Started</button>
+    </div>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-container">
+      <div class="service-box">
+        <div class="service-icon">
+          <i class="fas fa-film"></i>
+        </div>
+        <h3>Video Editing</h3>
+        <p>We create high-quality video content for your business.</p>
+      </div>
+      <div class="service-box">
+        <div class="service-icon">
+          <i class="fas fa-ad"></i>
+        </div>
+        <h3>Ad Creation</h3>
+        <p>We create ads that get your message to the right people.</p>
+      </div>
+      <div class="service-box">
+        <div class="service-icon">
+          <i class="fas fa-camera-retro"></i>
+        </div>
+        <h3>Photography</h3>
+        <p>We capture the essence of your brand with stunning photography.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="https://via.placeholder.com/500x500" alt="Project 1">
+      </div>
+      <div class="portfolio-box">
+        <img src="https://via.placeholder.com/500x500" alt="Project 2">
+      </div>
+      <div class="portfolio-box">
+        <img src="https://via.placeholder.com/500x500" alt="Project 3">
+      </div>
+      <div class="portfolio-box">
+        <img src="https://via.placeholder.com/500x500" alt="Project 4">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Clickclick. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
